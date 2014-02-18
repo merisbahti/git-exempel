@@ -23,11 +23,19 @@ Navigera fram till godtycklig mapp där du har dina projekt:
 
     cd ~/Documents/code
 
-Använd sedan kommandot ''''git clone'''' för att klona repositoriet.
+Använd sedan kommandot git cloneför att klona repositoriet.
 Exempel:
 
     git clone https://github.com/3amice/git-exempel.git
 
 Du kommer nu ha en lokal klon av repositoriet 3amice/git-exempel.
 
-Använd kommandot $touch$ för att skapa en fil.
+Använd kommandot "touch" för att skapa en fil.
+
+		touch fil.txt
+
+För att se hur detta påverkade repositoriet använd 'git status'-kommandot
+
+		git status
+
+
