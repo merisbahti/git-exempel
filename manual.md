@@ -16,6 +16,23 @@ https://help.github.com/articles/set-up-git#platform-mac
 
 Var inte löjlig.
 
+## Ordlista.
+
+	**Repository** - En samling commits och tillhörande metadata.
+
+	**Commit** - En fil som innehåller en delta mellan data. Denna deltan är relativ mot senaste commiten och beskriver endast
+	hur man går från senaste commiten till vart den är nu, dvs hur repositoriet blir up to date relativt mot den tidigare commiten i kedjan av commits.
+
+	**Merge Conflict** - Consider this scenario:
+	1. Both Bob and Alice clone the same repository containing an initially empty file, fil.txt.
+	2. Alice changes the file on her local machine, in her local repository, to contain the word "dog".
+	3. Bob changes the file on his local machine, in his local repository, to contain the word "cat".
+	4. Alice saves her changes in a commit and pushes it to the servers repository, the server accepts it.
+	5. Bob saves his changes in a commit and pushes it to the servers repository, the server denies it. Bob
+	is not up-to-date.
+	6. Bob updates his local repository by using the command "git pull".
+	7. Bob is now faced with a problem called a merge conflict and has to resolve it with his fellow worker.
+
 ## Hur använder jag git?
 
 För att kunna bidra till ett projekt behöver du först klona ett *repository*.
@@ -32,7 +49,7 @@ Du kommer nu ha en lokal klon av repositoriet 3amice/git-exempel.
 
 Använd kommandot "touch" för att skapa en fil.
 
-  $ touch fil.txt
+	$ touch fil.txt
 
 För att se hur detta påverkade repositoriet använd 'git status'-kommandot
 	$ git status
@@ -90,11 +107,11 @@ Lämpligt nog finns ett kommando som heter git push.
 
 Exempel:
 
-  $ git push origin master
+	$ git push origin master
 
 eller bara:
 
-  $ git push
+	$ git push
 
 Du kan även synkronisera servern mot dig (aka pulla), detta innebär att du ibland får merge-konflikter.
 Dessa är oftast triviala och git sköter det själv. I det fallet att git inte vågar sköta konflikten
@@ -102,11 +119,11 @@ så får du ta kontakt med den som senast ändrade filen.
 
 Exempel på git pull:
 
-  $ git pull
+	$ git pull
 
 Du kan kolla commit-loggen såhär:
 
-  $ git log
+	$ git log
 	
 #Frågor? Hit me.
 
