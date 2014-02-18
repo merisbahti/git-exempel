@@ -6,23 +6,11 @@
 
 Skoldatorerna har det, om du vill ladda ner det hemma så kan du använda valfri pakethanterare.
 
-Exempel:
-
-#### Archderiverade distros
-
-		 # pacman -S git
-#### Ubuntusmaker
-
-		 # apt-get install git
-
 ### Mac
 
 Native git finns tillängligt på följande länk:
 
 https://help.github.com/articles/set-up-git#platform-mac
-
-När du väl laddat ner och installerat det är det bara 
-att börja använda det från terminalemulatorn.
 
 ### Windows
 
@@ -35,7 +23,7 @@ Navigera fram till godtycklig mapp där du har dina projekt:
 
     cd ~/Documents/code
 
-Använd sedan kommandot $git clone$ för att klona repositoriet.
+Använd sedan kommandot ''''git clone'''' för att klona repositoriet.
 Exempel:
 
     git clone https://github.com/3amice/git-exempel.git
