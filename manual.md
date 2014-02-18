@@ -38,4 +38,17 @@ För att se hur detta påverkade repositoriet använd 'git status'-kommandot
 
 		git status
 
+Exempel:
+
+		[meris@meris-stat git-exempel]$ touch fil.txt
+		[meris@meris-stat git-exempel]$ git status
+		On branch master
+		Your branch is up-to-date with 'origin/master'.
+
+		Untracked files:
+			(use "git add <file>..." to include in what will be committed)
+
+				fil.txt
+
+				nothing added to commit but untracked files present (use "git add" to track)
 
