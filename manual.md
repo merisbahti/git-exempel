@@ -50,5 +50,8 @@ Exempel:
 
 				fil.txt
 
-				nothing added to commit but untracked files present (use "git add" to track)
+		nothing added to commit but untracked files present (use "git add" to track)
 
+För att lägga till en fil till din commit, använd 'git add' kommandot.
+
+Exempel:
