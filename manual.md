@@ -23,15 +23,14 @@ Var inte löjlig.
 **Commit** - En fil som innehåller en delta mellan data. Denna deltan är relativ mot senaste commiten och beskriver endast
 hur man går från senaste commiten till vart den är nu, dvs hur repositoriet blir up to date relativt mot den tidigare commiten i kedjan av commits.
 
-**Merge Conflict** - Consider this scenario:
-1. Both Bob and Alice clone the same repository containing an initially empty file, fil.txt.
-2. Alice changes the file on her local machine, in her local repository, to contain the word "dog".
-3. Bob changes the file on his local machine, in his local repository, to contain the word "cat".
-4. Alice saves her changes in a commit and pushes it to the servers repository, the server accepts it.
-5. Bob saves his changes in a commit and pushes it to the servers repository, the server denies it. Bob
-is not up-to-date.
-6. Bob updates his local repository by using the command "git pull".
-7. Bob is now faced with a problem called a merge conflict and has to resolve it with his fellow worker.
+**Merge Conflict** - Consider the following scenario:
+* Both Bob and Alice clone the same repository containing an initially empty file, fil.txt.
+* Alice changes the file on her local machine, in her local repository, to contain the word "dog".
+* Bob changes the file on his local machine, in his local repository, to contain the word "cat".
+* Alice saves her changes in a commit and pushes it to the servers repository, the server accepts it.
+* Bob saves his changes in a commit and pushes it to the servers repository, the server denies it. Bob is not up-to-date.
+* Bob updates his local repository by using the command "git pull".
+* Bob is now faced with a problem called a merge conflict and has to resolve it with his fellow worker.
 
 ## Hur använder jag git?
 
