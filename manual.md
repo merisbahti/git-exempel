@@ -32,7 +32,7 @@ Du kommer nu ha en lokal klon av repositoriet 3amice/git-exempel.
 
 Använd kommandot "touch" för att skapa en fil.
 
-		touch fil.txt
+	$ touch fil.txt
 
 För att se hur detta påverkade repositoriet använd 'git status'-kommandot
 
